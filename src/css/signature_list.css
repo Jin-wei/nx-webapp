@@ -1,0 +1,77 @@
+.signature-title{
+    font-size: 18px;
+    line-height: 18px;
+    padding:0 0 21px 20px;
+    border-bottom:1px solid #dddddd;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+.signature-position{
+    position: relative;
+    width: 990px;
+    height: 390px;
+    top:50px;
+    left:40px;
+    /*padding:50px 0 0 40px;*/
+    font-weight: 500;
+}
+
+.signature-btn-position{
+   padding: 20px 0 0 20px;
+}
+.lookBtn{
+    font-size: 14px;
+    color: #41b0e3;
+    cursor: pointer;
+}
+.changeBtn{
+    font-size: 14px;
+    color: #41b0e3;
+    margin-left: 13px;
+    cursor: pointer;
+}
+.deleteBtn{
+    font-size: 14px;
+    color: #e34242;
+    margin-left: 14px;
+    cursor: pointer;
+}
+.lookBtn2{
+    font-size: 12px;
+    color: #41b0e3;
+    cursor: pointer;
+}
+.changeBtn2{
+    font-size: 12px;
+    color: #41b0e3;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.deleteBtn2{
+    font-size: 12px;
+    color: #e34242;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.gray-body-table .lookBtn:hover,.gray-body-table .changeBtn:hover,.gray-body-table .lookBtn2:hover,.gray-body-table .changeBtn2:hover{
+    color: #41b0e3;
+    border-bottom: 1px solid #41b0e3;
+}
+
+.gray-body-table .deleteBtn:hover, .gray-body-table .deleteBtn2:hover{
+    color: #e34242;
+    border-bottom: 1px solid #e34242;
+}
+.signature-title{
+    height: 39px;
+}
+.signature-alert-detail{
+    width: 700px;
+    height:240px;
+    top:235px;
+    left:395px;
+}
+.signature-alert-text{
+    width: 580px;
+    height:137px;
+}

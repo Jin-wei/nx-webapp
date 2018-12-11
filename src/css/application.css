@@ -1,0 +1,97 @@
+body{
+    background: #f4f9fa;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+.clear{
+    clear:both;
+}
+.bk-color{
+    background: #f4f9fa;
+}
+.img-banner{
+    width: 100%;
+    height: 500px;
+    background: url('../../public/static/images/img/appliaction/appliaction-banner.png') 50% 0 no-repeat;
+    background-size: cover;
+    background-position: center 0;
+    padding-top: 171px;
+}
+.banner-title,.banner-English,.banner-small{
+    color: #f7f7f7;
+    text-align: center;
+}
+.banner-title{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+    margin-left: 15px;
+}
+.banner-English{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 22px;
+    margin-top: -14px;
+    margin-left: 15px;
+    font-weight: 500;
+}
+.banner-small{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 18px;
+    margin-top: 19px;
+    margin-left:15px;
+    font-weight: 500;
+}
+.application-bk-detail{
+    background: #f4f9fa url("../../public/static/images/img/appliaction/plane.png") top left no-repeat;
+    width: 1166px;
+    height: 1250px;
+    margin: 51px auto 41px auto;
+    position: relative;
+}
+.app-img{
+    float: left;
+}
+.left-margin{
+    padding: 47px 0 0 72px;
+}
+.left-margin2{
+    padding: 54px 0 0 72px;
+}
+.right-margin{
+    padding: 57px 0 0 72px;
+}
+.right-margin2{
+    padding: 56px 0 0 72px;
+}
+.left-content{
+    float: left;
+    padding:32px 0 0 92px;
+}
+.left-content2{
+    float: left;
+    padding:61px 0 0 93px;
+}
+.right-content{
+    float: left;
+    margin:64px 77px 20px 34px;
+}
+.right-content2{
+    float: left;
+    margin:10px 85px 20px 34px;
+}
+.app-title{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 22px;
+    color: #009be3;
+    padding-bottom: 12px;
+    margin-left: -25px;
+}
+.app-text li{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    color:#313434;
+    list-style: url("../../public/static/images/img/appliaction/crile-icon.png");
+    line-height: 28px;
+}

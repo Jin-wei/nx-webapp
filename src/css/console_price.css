@@ -1,0 +1,160 @@
+.price-middlle{
+    height: 39px;
+    width: 100%;
+    border-bottom:1px solid #dddddd;
+    font-size: 14px;
+    padding-top:0px;
+    font-weight: 500;
+}
+.auth-count{
+    padding:0px 0 0 20px;
+}
+.auth-status{
+    padding:14px 0 0 20px;
+}
+.span-left{
+    display: inline-block;
+    width: 107px;
+    line-height: 15px;
+
+}
+.console-blue-btn{
+    height: 20px;
+    width: 80px;
+    background: #41b0e3;
+    color: #ffffff;
+    font-size: 14px;
+    padding: 0;
+    font-weight: 600;
+    margin-left: 26px;
+}
+.blue-btn:hover,.blue-btn:focus{
+    background: #41b0e3;
+    color: #ffffff;
+}
+.green-btn{
+    height: 20px;
+    width: 80px;
+    background: #00ae72;
+    color: #ffffff;
+    font-size: 12px;
+    padding: 0;
+    font-weight: 600;
+}
+.green-btn:hover,.green-btn:focus{
+    background: #3aa670;
+    color: #ffffff;
+}
+.price-short-input{
+    width: 181px;
+    height:20px;
+    border: 1px solid #808080;
+    font-size: 12px;
+    margin: 0 0 0 18px ;
+    padding: 0 0 0 3px;
+}
+.price-short-input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: #c8c8c8;
+
+}
+
+.price-short-input:-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: #c8c8c8;
+}
+
+.price-short-input:-ms-input-placeholder,
+.price-short-input:-ms-input-placeholder {
+    color: #c8c8c8;
+}
+
+.price-short-input::-webkit-input-placeholder,
+.price-short-input::-webkit-input-placeholder {
+    color: #c8c8c8;
+}
+.info-title{
+    padding:0 0 19px 20px;
+}
+.header-table{
+    color: #333333;
+    width:818px;
+    font-weight: 400;
+    border-right: 1px solid #333333;
+    border-bottom: 1px solid #333333;
+    margin-bottom:0px;
+}
+.header-table2{
+    color: #333333;
+    font-weight: 400;
+    width:789px;
+    border-right: 1px solid #333333;
+    border-bottom: 1px solid #333333;
+    margin-left: 29px;
+    margin-bottom:0px;
+    display: none;
+    word-break:break-all;
+    word-wrap : break-word;
+}
+.header-table tr th,.header-table tr td,.header-table2 tr th,.header-table2 tr td{
+    border-left: 1px solid #333333;
+    border-top: 1px solid #333333;
+    padding: 4px 0 4px 4px;
+    font-weight: 400;
+}
+.header-table tr th{
+    background: #cccccc;
+}
+.header-table tr td,.header-table2 tr td{
+    background: #ffffff;
+}
+.price-table{
+    padding: 21px 0 0 18px;
+}
+.small-width{
+    width: 29px;
+}
+.country-name-witdh{
+    width: 548px;
+}
+.country-number-witdh,.country-price-witdh{
+    width: 119px;
+}
+.blue-add{
+    display: inline-block;
+    width:20px;
+    height: 20px;
+    background: #41b0e3;
+    color: #ffffff;
+    border-radius: 3px;
+    font-size: 18px;
+    padding: 0 0 0 3px;
+    font-weight: 400;
+    line-height: 17px;
+    cursor:pointer;
+}
+.header-table .write-border{
+    border-left: 1px solid #ffffff;
+    border-bottom: 1px solid #ffffff;
+}
+.header-table .write-border2{
+    border-left: 1px solid #ffffff;
+    border-bottom: 1px solid #ffffff;
+}
+.header-table2 .operate-name-witdh{
+    width:199px;
+}
+.header-table2 .operate-number-witdh{
+    width: 469px;
+}
+.header-table2 .operate-price-witdh{
+    width: 119px;
+}
+.header-table2 .remove-top-border{
+    border-top: none;
+}
+.table-scroll{
+    height: 450px;
+    overflow:auto;
+    width: 833px;
+}
+
+

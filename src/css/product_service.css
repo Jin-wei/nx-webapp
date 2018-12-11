@@ -1,0 +1,304 @@
+.horizontal-list li{
+    float: left;
+    width: 25%;
+    text-align: center;
+    list-style: none;
+    height: 114px;
+    cursor: pointer;
+}
+.service-header{
+    height: 115px;
+    background-color: rgb(239,245,245);
+    border-bottom: 1px solid rgb(209,214,215);
+}
+.service-active{
+    border-bottom: 3px solid #009be3;
+    color: #009be3 !important;
+}
+.chinese-p{
+    font-size: 20px;
+    line-height: 30px;
+    height: 30px;
+    margin-top: 40px;
+}
+.en-p{
+    font-size: 15px;
+    line-height: 15px;
+    height: 15px;
+    margin-top: -8px;
+}
+.onlineServiceDiv{
+    width: 40px;
+    height: 220px;
+    position: fixed;
+    top:520px;
+    right: 89px;
+    z-index: 9999;
+}
+.online-1,.online-2,.online-3,.online-4{
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+    position: relative;
+}
+.online-1 span,.online-2 span,.online-3 span,.online-4 span{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    color: #f7f7f7;
+    font-size:13px;
+    font-weight: 500;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 15px;
+    padding:5px 0 0 2px;
+    display: none;
+    min-height: 40px;
+}
+.online-1-en span{
+    padding-top: 12px;
+}
+.online-2,.online-3,.online-4{
+    margin-top: 20px;
+}
+.online-1{
+    background: url("../../public/static/images/img/52.png");
+}
+.online-2{
+    background: url("../../public/static/images/img/45.png");
+}
+.online-3{
+    background: url("../../public/static/images/img/51.png");
+}
+.online-4{
+    background: url("../../public/static/images/img/48.png");
+}
+.online-1:hover span{
+    background: #39afe5;
+    display:inline-block;
+}
+.online-2:hover span{
+    background: #39afe5;
+    display:inline-block;
+}
+.online-3:hover  span{
+    background: #39afe5;
+    display:inline-block;
+}
+.online-4:hover  span{
+    background: #39afe5;
+    display:inline-block;
+}
+.img-banner1{
+    width: 100%;
+    height: 500px;
+    background: url('../../public/static/images/img/30.png') 50% 0 no-repeat;
+    background-size: cover;
+    background-position: center 0;
+    padding-top: 180px;
+}
+.img-banner2{
+    width: 100%;
+    height: 500px;
+    background: url('../../public/static/images/img/13.png') 50% 0 no-repeat;
+    background-size: cover;
+    background-position: center 0;
+    padding-top: 180px;
+}
+.img-banner3{
+    width: 100%;
+    height: 500px;
+    background: url('../../public/static/images/img/3.png') 50% 0 no-repeat;
+    background-size: cover;
+    background-position: center 0;
+    padding-top: 180px;
+}
+.img-banner4{
+    width: 100%;
+    height: 500px;
+    background: url('../../public/static/images/img/23.png') 50% 0 no-repeat;
+    background-size: cover;
+    background-position: center 0;
+    padding-top: 180px;
+}
+.banner-title,.banner-en,.banner-p{
+    color: #f7f7f7;
+    text-align: center;
+}
+.banner-title{
+    font-size: 32px;
+}
+.banner-en{
+    font-size: 22px;
+    margin-top: -15px;
+}
+.banner-p{
+    font-size: 18px;
+    margin-top: 15px;
+}
+.business-character{
+    width: 100%;
+    padding-top: 45px;
+    padding-bottom: 60px;
+    background-color: rgb(245,249,250);
+}
+.business-titile{
+    text-align: center;
+    font-size: 24px;
+    height: 24px;
+    line-height: 24px;
+}
+.business-content{
+    text-align: center;
+    font-size: 16px;
+    margin-top: 40px
+}
+.business-content img{
+    margin-bottom: 17px;
+}
+
+.p1{
+    line-height: 16px;
+    min-height: 16px;
+}
+.p2{
+    padding-top: -6px;
+    line-height: 16px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #333333;
+}
+.prouduct-character{
+    width: 100%;
+    padding-top: 25px;
+    padding-bottom: 40px;
+    background-color: rgb(240,246,247);
+}
+.left-div{
+    width: 75%;
+    height: 200px;
+    border:1px solid rgb(185,189,188);
+    padding-left: 30px;
+    padding-top: 60px;
+}
+.float-img{
+    height: 160px;
+    width: 160px;
+    position: absolute;
+    top: 20px;
+    right: 40px;
+    z-index: 9999;
+}
+.margin-top-25 {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.product-example{
+    width: 100%;
+    padding-top: 25px;
+    padding-bottom: 70px;
+    background-color: rgb(245,249,250);
+}
+.example-img{
+    width: 100%;
+}
+.d1{
+    padding-left: 30px;
+    padding-right: 30px
+}
+.d2{
+    text-align: center;
+    border: 1px solid rgb(229,231,231);
+    cursor: pointer;
+}
+.d2:hover{
+    -webkit-box-shadow:0 0 10px #d9d9d9;
+    -moz-box-shadow:0 0 10px #d9d9d9;
+    box-shadow:0 0 10px #d9d9d9;
+    color: #009be3;
+
+    -webkit-transform:scale(1.1,1.1);
+    -moz-transform:scale(1.1,1.1);
+    -transform:scale(1.1,1.1);
+}
+
+.h-line{
+    margin:0 auto;
+    width:60px;
+    height:2px;
+    background-color: #333333;
+    margin-top: 20px;
+}
+
+.p-t{
+    font-size: 18px;
+    line-height: 18px;
+    min-height: 18px;
+    margin-top: 6px;
+}
+.p-a{
+    font-size: 14px;
+    line-height: 14px;
+    min-height: 14px;
+    margin-top: -6px;
+}
+.product-content{
+    margin-top: 50px;
+}
+.prod-description{
+    border: 2px solid rgb(194,225,237);
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+    margin-left: 30px;
+}
+.prod-description h3{
+    color: #009be3;
+    margin-top: 35px;
+    font-size: 22px;
+    line-height: 22px;
+    height: 22px;
+    margin-bottom: 30px;
+}
+.prod-description p{
+    width: 100%;
+    height: auto;
+    font-size:16px;
+    word-break:break-all;
+    word-wrap:break-word;
+}
+.prod-img{
+    -webkit-box-shadow:0 0 10px #333333;
+    -moz-box-shadow:0 0 10px #333333;
+    box-shadow:0 0 10px #333333;
+}
+.prod-img-home{
+    background: url("../../public/static/images/img/24.png")50% 0 no-repeat;
+    background-size: cover;
+    background-position: center 0;
+    float: left;
+    width: 95%;
+    height: 300px
+}
+.prod-num-home{
+    background: url("../../public/static/images/img/17.png")50% 0 no-repeat;
+    background-size: cover;
+    background-position: center 0;
+    float: left;
+    width: 95%;
+    height: 300px
+}
+.right-div{
+    background-color: rgb(194,225,237);
+    float: left;
+    width: 5%;
+    height: 280px;
+    margin-top: 20px;
+}
+.bottom-div{
+    background-color: rgb(194,225,237);
+    width: 95%;
+    height: 20px;
+    margin-left: 5%;
+    float: left;
+}
+

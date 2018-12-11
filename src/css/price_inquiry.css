@@ -1,0 +1,114 @@
+.img-banner-price{
+    width: 100%;
+    height: 300px;
+    background: url('../../public/static/images/img/price_inquiry/price-banner.png') 50% 0 no-repeat;
+    background-size: cover;
+    background-position: center 0;
+    padding-top: 100px;
+}
+.banner-title-price{
+    color: #f7f7f7;
+    text-align: center;
+    font-size: 28px;
+    height: 30px;
+    line-height: 28px;
+}
+.search-price{
+    height: 60px;
+    margin-top: 40px;
+    min-width: 700px;
+    width:80%;
+    max-width: 1110px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.search-input{
+    width: 85%;
+    height: 100%;
+    float: left;
+    font-size: 16px;
+    text-indent: 5px;
+}
+.search-btn{
+    width: 15%;
+    height: 100%;
+    float: left;
+    border: none;
+    background-color: #39afe5;
+    color: #f7f7f7;
+    font-size: 22px;
+    text-align: center;
+}
+.content-price{
+    background-color: rgb(245,249,250);
+    width:100%;
+}
+.search-result{
+    height: 80px;
+    border-bottom: 1px solid #333333;
+}
+.result-span{
+    line-height: 80px;
+    font-size: 20px;
+}
+.price-unit{
+    float: right;
+    height: 100%;
+    margin-right: 30px;
+}
+.unit-btn{
+    float: left;
+    margin-left: 10px;
+    height: 26px;
+    width: 26px;
+    margin-top: 27px;
+    border: none;
+    background: none;
+    padding: 0;
+    cursor:pointer;
+}
+.price-list{
+    padding: 50px 15px 0 15px;
+    width: 1170px;
+}
+.list-line{
+    width: 570px;
+    height: 90px;
+    padding-top: 13px;
+    border-bottom: 1px solid #333333;
+    float: left;
+}
+.list-line img{
+    padding-left: 15px;
+}
+.price-col{
+    height: 60px;
+}
+.price-list-p{
+    vertical-align: middle;
+    word-break:break-all;
+    word-wrap:break-word;
+}
+.download-all{
+    margin-top: 30px;
+}
+.reminder{
+    margin-top: 20px;
+    padding-bottom: 60px;
+}
+.reminder p{
+    text-align: center;
+    font-size: 18px;
+    height: 18px;
+    line-height: 18px;
+}
+.reminder-title{
+    font-size: 22px;
+    text-align: center;
+    height: 22px;
+    line-height: 22px;
+}
+.flag{
+    width: 100px;
+    height: 62px;
+}

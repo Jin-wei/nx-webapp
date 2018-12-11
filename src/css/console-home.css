@@ -1,0 +1,326 @@
+.clear{
+    clear:both;
+}
+.positon{
+    position: relative;
+}
+.top{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    height: 284px;
+    width: 100%;
+    /*padding: 51px 0 0 39px;*/
+    color:#333333;
+    position: relative;
+    font-weight: 500;
+}
+.information{
+    height: 233px;
+    float: left;
+    position: absolute;
+    top:51px;
+    left: 39px;
+}
+.info-title{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 18px;
+    line-height: 18px;
+    padding: 0 0 14px 21px;
+}
+.info-content{
+    width: 580px;
+    height:200px;
+    border:1px solid #808080;
+}
+
+.info-left{
+    float: left;
+    width:297px;
+    height: 150px;
+    margin: 25px 21px 25px 18px;
+    border-right: 1px solid #333333;
+
+}
+.info-price{
+    margin:6px 0 31px 0;
+    line-height: 16px;
+    height:16px;
+}
+.info-price span{
+    font-size:16px;
+    float: left;
+}
+
+
+.info-left .info-price div a{
+    color:#43b2e3;
+    font-size: 14px;
+    line-height: 14px;
+    height: 16px;
+    padding: 0 0 0 5px;
+    margin-top: -1px;
+    display: inline-block;
+}
+.info-left .info-price div .recharge-history{
+    padding:0 11px 0 31px;
+    border-right: 1px solid #808080;
+
+}
+.info-left .info-price div .recharge-history2{
+    padding:0px 11px 0 0;
+    margin-top: 5px;
+    border-right: 1px solid #808080;
+
+}
+.info-content-middle{
+    height: 40px;
+    width: 100%;
+}
+.info-text{
+    min-width: 122px;
+    width: 122px;
+    height:40px;
+    float: left;
+
+}
+.info-content-middle .info-text span{
+    display: inline-block;
+    font-size: 16px;
+    line-height: 19px;
+    width: 119px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.info-content-middle div .info-content-large{
+    font-size: 22px;
+    font-weight:600;
+    line-height: 22px;
+    letter-spacing:0.5px;
+    width: 119px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.info-btn{
+    float: left;
+    padding:11px 0 0 1px ;
+}
+.blue-tbn{
+    min-width: 70px;
+    height: 25px;
+    background: #40b1e2;
+    border-radius:3px;
+    color: #ffffff;
+    font-weight: 600;
+    font-size:14px;
+    padding: 0;
+}
+.info-content-middle .blue-tbn:focus,.info-content-middle .blue-tbn:hover{
+    background: #40b1e2;
+    color: #ffffff;
+}
+.btn-margin{
+    margin-left:5px
+}
+.info-attestation{
+    padding-top: 27px;
+    height: 55px;
+    width: 100%;
+}
+
+.info-attestation .yello-btn{
+    min-width: 100px;
+    height: 25px;
+    padding: 0;
+    background: #ff9b26;
+    color:#ffffff;
+    font-weight:600;
+    margin-left: 23px;
+    margin-top: -5px;
+    display: none;
+}
+.info-attestation .gree-btn{
+    min-width: 100px;
+    height: 25px;
+    padding: 0;
+    background: #00ae72;
+    color:#ffffff;
+    font-weight:600;
+    margin-left: 23px;
+    margin-top: -5px;
+    display: none;
+}
+.info-attestation .yello-btn2{
+    min-width: 100px;
+    height: 25px;
+    padding: 0;
+    background: #ff9b26;
+    color:#ffffff;
+    font-weight:600;
+    margin-left:0px;
+    margin-top: 0px;
+    display: none;
+}
+.info-attestation .gree-btn2{
+    min-width: 100px;
+    height: 25px;
+    padding: 0;
+    background: #00ae72;
+    color:#ffffff;
+    font-weight:600;
+    margin-left: 0px;
+    margin-top: 0px;
+    display: none;
+}
+.info-attestation .yello-btn:hover,.info-attestation .yello-btn:focus{
+    background: #ff9b26;
+    color:#ffffff;
+
+}
+.info-attestation .gree-btn:hover,.info-attestation .gree-btn:focus{
+    background: #00ae72;
+    color:#ffffff;
+    display: none;
+}
+
+.info-attestation span{
+    display: inline-block;
+    font-size: 16px;
+    padding-top: 2px;
+}
+.info-right{
+    width: 220px;
+    height: 150px;
+    float: left;
+    margin: 28px 0 0 0;
+}
+.info-right-title{
+    font-size:16px;
+    margin:0 0 5px 0;
+}
+.info-right p{
+    font-size: 13px;
+    width: 220px;
+    line-height: 23px;
+    font-weight: 600;
+    padding:5px 0 0 1px;
+    letter-spacing: 0.5px;
+}
+.info-right span{
+    display: inline-block;
+    font-size: 12px;
+    width: 220px;
+    font-weight: 500;
+    line-height: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding:0 0 0 1px;
+}
+.static{
+    height: 233px;
+    width:370px;
+    float: left;
+    position: absolute;
+    top:51px;
+    left: 658px;
+}
+.static-border{
+    width:368px;
+    height:200px;
+    border:1px solid #808080;
+
+}
+.static-samll-title{
+    font-size: 16px;
+    line-height: 16px;
+    margin: 0 18px;
+    padding:16px 0 14px 0 ;
+    border-bottom:1px solid #333333;
+}
+.static-bottom p{
+    font-size: 16px;
+}
+.static-price{
+    float: left;
+    width: 115px;
+    height:130px;
+    margin:9px 0;
+    border-right: 1px solid #333333;
+}
+.static-price img{
+    padding: 11px 0 7px 29px;
+}
+.static-price p,.static-message p{
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.static-price p span,.static-message p span{
+   font-weight: 600;
+}
+
+.static-price2{
+    float: left;
+    width: 126px;
+    height:130px;
+    margin:9px 0;
+    border-right: 1px solid #333333;
+}
+.static-price2 img{
+    padding: 11px 0 7px 29px;
+}
+.static-price2 p,.static-message2 p{
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.static-price2 p span,.static-message2 p span{
+    font-weight: 600;
+}
+.static-message2{
+    float: left;
+    width: 122px;
+    height:130px;
+}
+.static-message2 img{
+    padding: 28px 0 16px 25px;
+}
+.static-message{
+    float: left;
+    width: 108px;
+    height:130px;
+}
+.static-message img{
+    padding: 28px 0 16px 25px;
+}
+.bottom{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    height: 455px;
+    width: 100%;
+    /*padding: 51px 0 0 39px;*/
+    color:#333333;
+    position: relative;
+    font-weight: 500;
+
+}
+.bottom-position{
+    position: absolute;
+    top:49px;
+    left: 50px;
+}
+.bottom .bottom-title{
+    font-size: 18px;
+    line-height: 18px;
+    margin-left: 9px;
+}
+.chart-size{
+    margin-top: 10px;
+    width:960px;
+    height: 320px;
+}

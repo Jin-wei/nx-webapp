@@ -1,0 +1,80 @@
+body{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.img-banner-dev{
+    width: 100%;
+    height: 380px;
+    background: url('../../public/static/images/img/dev_doc/develop-banner.png') 50% 0 no-repeat;
+    background-size: cover;
+    background-position: center 0;
+}
+.develop-content{
+    /*background: #e6e9eb;*/
+    min-height: 760px;
+    min-width:1166px!important;
+    width:1166px;
+    margin: 50px auto 0 auto;
+    border: 1px solid #d9dcdb;
+    padding: 0;
+}
+.develop-bk{
+    background: #e6e9eb;
+}
+.dev-title{
+    height: 50px;
+    font-size: 18px;
+    line-height: 50px;
+    border-bottom:1px solid #d9dcdb;
+    margin: 0;
+    background:#f3f6f8;
+    padding: 0 0 0 29px;
+}
+.dev-list-div{
+    min-height:698px;
+    background: #ffffff;
+}
+.dev-list-div ul{
+    list-style: none;
+    padding: 0;
+    margin: 0 0 0 22px;
+}
+.dev-block{
+    width: 219px;
+    min-height: 278px;
+    border: 1px solid #dbdbdb;
+    margin: 50px 30px 0 30px;
+    float: left;
+    text-align: center;
+    /*cursor: pointer;*/
+}
+.dev-block img{
+     margin: 59px 0 10px 0;
+}
+.dev-block-title{
+    font-size: 18px;
+    margin: 8px 0 14px 0;
+}
+.dev-block-small{
+    font-size: 16px;
+    color: #999999;
+}
+.dev-btn{
+    background:#40b1e2;
+    color: #ffffff;
+    min-width: 120px;
+    height:30px;
+    margin: 11px auto 0 auto;
+    padding: 0;
+    border: none;
+    display: none;
+}
+.dev-btn{
+    outline:none!important;
+}
+.dev-block:hover{
+    margin: 40px 30px 10px 30px;
+    border: 1px solid #40b1e2;
+}
+.dev-block:hover .dev-btn{
+    display: block;
+}
